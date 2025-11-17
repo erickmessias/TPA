@@ -2,7 +2,7 @@ package prjVetor;
 
 import java.util.Scanner;
 
-public class RotinaBusca {
+public class VetorRotina {
 	public static void main(String[] args) {
 		
 		
@@ -24,15 +24,16 @@ public class RotinaBusca {
       
         for (i = 0; i < TAM; i++) {
             if (a[i] == x) {
-                System.out.println("Valor encontrado na posição: " + i);
+                System.out.println("Valor encontrado : " + i);
                 encontrado++; 
             }
         }
 
       
         if (encontrado == 0) {
-            System.out.println("Valor não encontrado no vetor.");
+            System.out.println("Valor não encontrado .");
         }
 		
 	}
 }
+
