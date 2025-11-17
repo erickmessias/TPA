@@ -1,5 +1,3 @@
-package prjVetor;
-
 import java.util.Scanner;
 
 public class VetorRotina {
@@ -36,4 +34,5 @@ public class VetorRotina {
 		
 	}
 }
+
 
